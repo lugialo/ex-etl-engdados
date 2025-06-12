@@ -1,0 +1,6 @@
+id_tipo_pagamento,descricao_tipo_pagamento
+1,Dinheiro
+2,Cartão de Crédito
+3,Cartão de Débito
+4,PIX
+5,Boleto Bancário
