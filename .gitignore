@@ -1,0 +1,3 @@
+databricks/.terraform
+.terraform.lock.hcl
+databricks/terraform.tfstate
