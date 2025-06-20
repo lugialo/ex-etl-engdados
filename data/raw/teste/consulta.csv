@@ -1,0 +1,3 @@
+id_consulta,data_hora,diagnostico,tratamento,agendamento_id_agendamento
+1,"2024-07-22T11:00:00","Canal radicular inflamado.","Tratamento de canal no dente 25.",3
+2,"2024-07-23T10:00:00","Cárie no dente 14 e necessidade de limpeza.","Restauração e profilaxia.",4

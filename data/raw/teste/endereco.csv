@@ -1,0 +1,4 @@
+id_endereco,logradouro,numero,complemento,bairro,cidade,estado,cep,pais
+1,"Rua das Flores",123,"Apto 4B","Centro","São Paulo","SP","01000-001","Brasil"
+2,"Avenida Paulista",1500,"Conjunto 82","Bela Vista","São Paulo","SP","01310-200","Brasil"
+3,"Praça da Liberdade",100,,,"Belo Horizonte","MG","30140-010","Brasil"
