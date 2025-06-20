@@ -1,0 +1,3 @@
+id_log,tipo_acao,id_pagamento,tipo_pagamento_id_tipo_pagamento,valor_pago,data_pagamento,DataHoraOperacao,ExecutedBy
+1,"INSERT",1,1,450.00,"2024-07-22T11:30:00","2024-07-22T11:30:05","sistema"
+2,"INSERT",2,3,250.00,"2024-07-23T10:25:00","2024-07-23T10:25:02","sistema"

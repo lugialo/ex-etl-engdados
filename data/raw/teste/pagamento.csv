@@ -1,0 +1,3 @@
+id_pagamento,valor_pago,data_pagamento,tipo_pagamento_id_tipo_pagamento,consulta_id_consulta
+1,450.00,"2024-07-22T11:30:00",1,1
+2,250.00,"2024-07-23T10:25:00",3,2

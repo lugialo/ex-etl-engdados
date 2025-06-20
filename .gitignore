@@ -1,3 +1,5 @@
 databricks/.terraform
 .terraform.lock.hcl
-databricks/terraform.tfstate
+databricks/terraform.tfs
+/terraform/.terraform
+terraform/terraform.tfstate

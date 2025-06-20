@@ -1,0 +1,4 @@
+id_paciente,nome_paciente,cpf_paciente,telefone,genero,data_nasc,email,endereco_id_endereco
+1,"Ana Silva","11122233344","11987654321","F","1990-05-15","ana.silva@email.com",1
+2,"Bruno Costa","22233344455","11912345678","M","1985-08-20","bruno.costa@email.com",2
+3,"Carlos Souza","33344455566","31998765432","M","2001-02-10","carlos.souza@email.com",3
