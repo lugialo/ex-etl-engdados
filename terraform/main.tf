@@ -224,7 +224,7 @@ resource "databricks_cluster" "dbcluster01" {
   num_workers             = 0
   spark_version           = data.databricks_spark_version.latest.id # Other possible values ("13.3.x-scala2.12", "11.2.x-cpu-ml-scala2.12", "7.0.x-scala2.12")
   node_type_id            = "Standard_D4a_v4" # Other possible values ("Standard_F4", "Standard_DS3_v2")
-  autotermination_minutes = 20
+  autotermination_minutes = 40
   
   spark_conf = {
     "spark.databricks.cluster.profile" : "singleNode"
