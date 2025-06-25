@@ -9,8 +9,8 @@ Antes de começar, certifique-se de ter instalado:
 - Python 3.9+
 - Docker e Docker Compose
 - Git
-- Azure CLI (opcional, para deploy na nuvem)
-- Terraform (opcional, para infraestrutura)
+- Azure CLI (para deploy na nuvem)
+- Terraform (para infraestrutura)
 
 ## Configuração Inicial
 
@@ -330,11 +330,3 @@ docker-compose -f docker/docker-compose.yml down -v
 cd terraform
 terraform destroy
 ```
-
-## Próximos Passos
-
-1. **Análise de Dados**: Use ferramentas como Power BI ou Tableau
-2. **Automação**: Configure pipelines CI/CD
-3. **Monitoramento**: Implemente alertas e métricas
-4. **Escalabilidade**: Migre para Azure Data Factory
-5. **Machine Learning**: Integre com Azure ML ou Databricks ML
