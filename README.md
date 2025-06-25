@@ -34,8 +34,11 @@ Para executar este projeto, você precisará de:
 ├── notebooks/
 │   ├── notebook_landing_bronze.ipynb  # Notebook para ingestão de Landing para Bronze
 │   ├── notebook_bronze_silver.ipynb   # Notebook para transformação de Bronze para Silver
-│   ├── notebook_silver_gold.ipynb     # Notebook para modelagem de Silver para Gold
-│   └── teste/                # Notebooks de teste
+│   └── notebook_silver_gold.ipynb     # Notebook para modelagem de Silver para Gold
+├── power-bi/
+│   ├── bi-eg-dados.pbit               # Componente de template do Power BI.
+│   ├── bi-eg-dados.pbix               # Componente do relatório do Power BI.
+│   └── bi-example.png                 # Imagem do resultado do BI.
 ├── scripts/
 │   ├── gerador_dados.py      # Script para gerar dados de teste (com suporte a Azure e DB)
 │   ├── modelo_dimensional.sql # Script SQL para criar o modelo dimensional (Data Warehouse)
