@@ -215,6 +215,10 @@ mkdocs serve ```
 
 Acesse o site em http://127.0.0.1:8000.
 
+Para publicar o site estático no GitHub Pages (requer a ação mkdocs gh-deploy configurada ou manual):
+
+mkdocs gh-deploy
+
 Autores
 Anna Clara
 Cauã Loch
