@@ -1,4 +1,4 @@
-CREATE TABLE agendamento (
+CREATE TABLE IF NOT EXISTS agendamento (
   id_agendamento SERIAL PRIMARY KEY,
   data_agendamento timestamp DEFAULT NULL,
   status_agendamento varchar(100) DEFAULT NULL,
@@ -6,7 +6,7 @@ CREATE TABLE agendamento (
   odontologista_id_odontologista int NOT NULL
 );
 
-CREATE TABLE consulta (
+CREATE TABLE IF NOT EXISTS consulta (
   id_consulta SERIAL PRIMARY KEY,
   data_hora timestamp DEFAULT NULL,
   diagnostico text,
@@ -14,14 +14,14 @@ CREATE TABLE consulta (
   agendamento_id_agendamento int NOT NULL
 );
 
-CREATE TABLE consulta_procedimento (
+CREATE TABLE IF NOT EXISTS consulta_procedimento (
   id_consulta_procedimento SERIAL,
   consulta_id_consulta int NOT NULL,
   procedimento_id_procedimento int NOT NULL,
   PRIMARY KEY (id_consulta_procedimento, consulta_id_consulta, procedimento_id_procedimento)
 );
 
-CREATE TABLE endereco (
+CREATE TABLE IF NOT EXISTS endereco (
   id_endereco SERIAL PRIMARY KEY,
   logradouro varchar(255) NOT NULL,
   numero varchar(20) DEFAULT NULL,
@@ -33,7 +33,7 @@ CREATE TABLE endereco (
   pais varchar(200) NOT NULL
 );
 
-CREATE TABLE log_pagamento (
+CREATE TABLE IF NOT EXISTS log_pagamento (
   id_log SERIAL PRIMARY KEY,
   tipo_acao varchar(10) NOT NULL,
   id_pagamento int NOT NULL,
@@ -44,14 +44,14 @@ CREATE TABLE log_pagamento (
   ExecutedBy varchar(100) DEFAULT NULL
 );
 
-CREATE TABLE odontologista (
+CREATE TABLE IF NOT EXISTS odontologista (
   id_odontologista SERIAL PRIMARY KEY,
   nome_odontologista varchar(100) DEFAULT NULL,
   especialidade varchar(100) DEFAULT NULL,
   cro varchar(20) DEFAULT NULL
 );
 
-CREATE TABLE paciente (
+CREATE TABLE IF NOT EXISTS paciente (
   id_paciente SERIAL PRIMARY KEY,
   nome_paciente varchar(100) DEFAULT NULL,
   cpf_paciente varchar(11) DEFAULT NULL,
@@ -62,7 +62,7 @@ CREATE TABLE paciente (
   endereco_id_endereco int DEFAULT NULL
 );
 
-CREATE TABLE pagamento (
+CREATE TABLE IF NOT EXISTS pagamento (
   id_pagamento SERIAL PRIMARY KEY,
   valor_pago decimal(10,2) DEFAULT NULL,
   data_pagamento timestamp DEFAULT NULL,
@@ -70,13 +70,13 @@ CREATE TABLE pagamento (
   consulta_id_consulta int NOT NULL
 );
 
-CREATE TABLE procedimento (
+CREATE TABLE IF NOT EXISTS procedimento (
   id_procedimento SERIAL PRIMARY KEY,
   nome_procedimento varchar(100) DEFAULT NULL,
   descricao_procedimento varchar(100) DEFAULT NULL
 );
 
-CREATE TABLE tipo_pagamento (
+CREATE TABLE IF NOT EXISTS tipo_pagamento (
   id_tipo_pagamento SERIAL PRIMARY KEY,
   descricao_tipo_pagamento varchar(100) DEFAULT NULL
 );

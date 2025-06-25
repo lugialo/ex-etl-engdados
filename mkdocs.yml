@@ -2,7 +2,7 @@ site_name: Pipeline ETL para Clínicas Odontológicas
 site_description: Documentação completa do pipeline ETL para dados de clínicas odontológicas, incluindo arquitetura, transformações e modelagem.
 site_author: Anna Clara,Cauã Loch,Gabriel Antonin e Gabrielle Coelho
 site_url: https://lugialo.github.io/ex-etl-engdados/ 
-site_keywords: Engenharia de Dados, ETL, Python, Pandas, Jupyter, SQL, PostgreSQL, Data Lake, Arquitetura Medalhão, MkDocs, UNISATC
+site_keywords: Engenharia de Dados, ETL, Python, Pandas, Jupyter, SQL, PostgreSQL, Data Lake, Arquitetura Medalhão, MkDocs, UNISATC, Docker, Terraform, Azure, Azure Storage, Azure Databricks
 
 repo_name: ex-etl-engdados
 repo_url: https://github.com/lugialo/ex-etl-engdados
@@ -15,6 +15,10 @@ nav:
   - Introdução:
     - Visão Geral do Projeto: introducao/visao_geral.md
     - Arquitetura do Pipeline: introducao/arquitetura.md
+  - Configuração e Deploy:
+    - Configuração de Ambiente: configuracao/ambiente.md
+    - Docker e Containerização: configuracao/docker.md
+    - Terraform e Azure: configuracao/terraform.md
   - Camadas do Data Lake:
     - Camada Landing: camadas/landing.md
     - Camada Bronze: camadas/bronze.md

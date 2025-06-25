@@ -20,6 +20,7 @@ Anna Clara
 Cauã Loch
 Gabriel Antonin
 Gabrielle Coelho
+Vinícius Teixeira Colombo
 
 **Agradecimentos:**
 
