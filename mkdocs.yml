@@ -1,8 +1,7 @@
 site_name: Pipeline ETL para Clínicas Odontológicas
 site_description: Documentação completa do pipeline ETL para dados de clínicas odontológicas, incluindo arquitetura, transformações e modelagem.
-site_author: Anna Clara,Cauã Loch,Gabriel Antonin e Gabrielle Coelho
-site_url: https://lugialo.github.io/ex-etl-engdados/ 
-site_keywords: Engenharia de Dados, ETL, Python, Pandas, Jupyter, SQL, PostgreSQL, Data Lake, Arquitetura Medalhão, MkDocs, UNISATC
+site_author: Anna Clara,Cauã Loch,Gabriel Antonin, Gabrielle Coelho e Vinícius Teixeira Colombo
+site_url: https://lugialo.github.io/ex-etl-engdados/
 
 repo_name: ex-etl-engdados
 repo_url: https://github.com/lugialo/ex-etl-engdados
@@ -15,21 +14,25 @@ nav:
   - Introdução:
     - Visão Geral do Projeto: introducao/visao_geral.md
     - Arquitetura do Pipeline: introducao/arquitetura.md
+  - Configuração e Deploy:
+    - Configuração de Ambiente: configuracao/ambiente.md
+    - Docker e Containerização: configuracao/docker.md
+    - Terraform e Azure: configuracao/terraform.md
   - Camadas do Data Lake:
     - Camada Landing: camadas/landing.md
     - Camada Bronze: camadas/bronze.md
     - Camada Silver: camadas/silver.md
-    - Camada Gold (Data Warehouse): camadas/gold.md
+    - "Camada Gold (Data Warehouse)": camadas/gold.md
   - Detalhes do Pipeline ETL:
     - Geração de Dados Brutos: pipeline/geracao_dados.md
-    - Stage 1: Landing para Bronze: pipeline/notebook_landing_bronze.md
-    - Stage 2: Bronze para Silver: pipeline/notebook_bronze_silver.md
-    - Stage 3: Silver para Gold: pipeline/notebook_silver_gold.md
+    - "Stage 1: Landing para Bronze": pipeline/notebook_landing_bronze.md
+    - "Stage 2: Bronze para Silver": pipeline/notebook_bronze_silver.md
+    - "Stage 3: Silver para Gold": pipeline/notebook_silver_gold.md
   - Modelagem de Dados:
-    - Modelo Físico do Banco de Dados: modelagem/modelo_fisico.md
-    - Modelo Dimensional (Data Warehouse): modelagem/modelo_dimensional.md
+    - "Modelo Físico do Banco de Dados": modelagem/modelo_fisico.md
+    - "Modelo Dimensional (Data Warehouse)": modelagem/modelo_dimensional.md
   - Como Executar o Projeto: como_executar.md
-  - Sobre o Projeto: sobre.md 
+  - Sobre o Projeto: sobre.md
 
 theme:
   name: material
@@ -48,15 +51,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-extra_css:
-  - stylesheets/extra.css 
-extra_javascript:
-  - javascripts/extra.js 
-
 plugins:
-  - search
-  - mkdocstrings:
-      default_handler: python 
+  - search 
 
 markdown_extensions:
   - pymdownx.critic
@@ -77,4 +73,4 @@ markdown_extensions:
   - toc:
       permalink: true
 
-copyright: Copyright &copy; 2024 - [Seu Nome Completo] - Todos os direitos reservados.
+copyright: Copyright &copy; 2025 - Anna Clara, Cauã Loch, Gabriel Antonin, Gabrielle Coelho e Vinícius Teixeira Colombo - Todos os direitos reservados.

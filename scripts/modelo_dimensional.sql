@@ -1,4 +1,4 @@
-CREATE TABLE fato_consulta_pagamento (
+CREATE TABLE IF NOT EXISTS fato_consulta_pagamento (
   id_fato SERIAL PRIMARY KEY,
   id_consulta int NOT NULL,
   id_paciente int NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE fato_consulta_pagamento (
   quantidade_procedimentos int
 );
 
-CREATE TABLE dim_paciente (
+CREATE TABLE IF NOT EXISTS dim_paciente (
   id_paciente int PRIMARY KEY,
   nome_paciente varchar(100),
   cpf_paciente varchar(11),
@@ -21,20 +21,20 @@ CREATE TABLE dim_paciente (
   pais varchar(200)
 );
 
-CREATE TABLE dim_odontologista (
+CREATE TABLE IF NOT EXISTS dim_odontologista (
   id_odontologista int PRIMARY KEY,
   nome_odontologista varchar(100),
   especialidade varchar(100),
   cro varchar(20)
 );
 
-CREATE TABLE dim_procedimento (
+CREATE TABLE IF NOT EXISTS dim_procedimento (
   id_procedimento int PRIMARY KEY,
   nome_procedimento varchar(100),
   descricao_procedimento varchar(100)
 );
 
-CREATE TABLE dim_consulta (
+CREATE TABLE IF NOT EXISTS dim_consulta (
   id_consulta int PRIMARY KEY,
   data_hora timestamp DEFAULT NULL,
   diagnostico text,
@@ -42,12 +42,12 @@ CREATE TABLE dim_consulta (
   id_agendamento int
 );
 
-CREATE TABLE dim_tipo_pagamento (
+CREATE TABLE IF NOT EXISTS dim_tipo_pagamento (
   id_tipo_pagamento int PRIMARY KEY,
   descricao_tipo_pagamento varchar(100)
 );
 
-CREATE TABLE dim_tempo (
+CREATE TABLE IF NOT EXISTS dim_tempo (
   id_tempo int PRIMARY KEY,
   data date,
   ano int,

@@ -16,11 +16,12 @@ O principal objetivo deste trabalho foi aplicar na prática os conceitos e metod
 
 Este projeto foi desenvolvido por:
 
-Anna Clara
-Cauã Loch
-Gabriel Antonin
-Gabrielle Coelho
+Anna Clara,
+Cauã Loch,
+Gabriel Antonin,
+Gabrielle Coelho e
+Vinícius Teixeira Colombo
 
 **Agradecimentos:**
 
-Gostaríamos de expressar nossa gratidão ao(à) professor(a) responsável pela disciplina de Engenharia de Dados na UNISATC, Jorge Luiz Da Silva, por sua orientação e suporte ao longo do desenvolvimento deste projeto.
+Gostaríamos de expressar nossa gratidão ao professor responsável pela disciplina de Engenharia de Dados na UNISATC, Jorge Luiz Da Silva, por sua orientação e suporte ao longo do desenvolvimento deste projeto.
