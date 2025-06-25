@@ -3,7 +3,6 @@
 A arquitetura do nosso pipeline ETL para dados de clínicas odontológicas segue o padrão de **Data Lake com arquitetura medalhão**. Este modelo é fundamental para garantir a organização, a qualidade e a rastreabilidade dos dados em diferentes estágios de processamento, desde a sua origem até a camada de consumo.
 
 ![Diagrama da Arquitetura ETL](../img/arquitetura_etl.png)
-<!-- Tem que botar a arquitetura aqui ainda !!!!!-->
 
 
 **Componentes Chave da Arquitetura:**
