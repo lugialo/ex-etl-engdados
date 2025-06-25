@@ -18,9 +18,6 @@ Para executar este projeto, você precisará de:
 .
 ├── data/
 │   ├── raw/                  # Dados brutos originais (CSV gerados)
-│   ├── bronze/               # Dados brutos ingeridos
-│   ├── silver/               # Dados limpos e transformados
-│   └── gold/                 # Dados agregados e modelados para consumo (Data Warehouse)
 ├── docs/                     # Arquivos fonte da documentação MkDocs
 │   ├── img/                  # Imagens para a documentação (ex: arquitetura_etl.png)
 │   ├── introducao/           # Documentação de introdução
@@ -100,10 +97,6 @@ mkdocs build
 mkdocs serve ```
 
 Acesse o site em http://127.0.0.1:8000.
-
-Para publicar o site estático no GitHub Pages (requer a ação mkdocs gh-deploy configurada ou manual):
-
-mkdocs gh-deploy
 
 Versão
 
