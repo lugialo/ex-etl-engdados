@@ -214,7 +214,8 @@ Para visualizar a documentação localmente:
 
 ```bash
 mkdocs build
-mkdocs serve ```
+mkdocs serve
+```
 
 Acesse o site em http://127.0.0.1:8000.
 
